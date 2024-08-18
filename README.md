@@ -12,6 +12,7 @@ If you encounter any problem when following along, please don't hesitate to rais
 
 ## Prerequesites
 - Install Terraform following the [official website](https://developer.hashicorp.com/terraform/install).
+- Assume the user to be fairly familiar with AWS IAM for local credential configuration.
 - AWS user credentials have been configured locally. The user must be the default user in the `~/.aws/credentials` file. Also the user must have the `AmazonEC2FullAccess` and `IAMFullAccess` policies attached.
 - Have an AWS role with the `AmazonS3FullAccess` policy attached.
 - Have a SSH key pair.
